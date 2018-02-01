@@ -1,7 +1,7 @@
 {
   "daemon-url" :
   {
-    "mainnet" : "http://127.0.0.1:18081",
+    "mainnet" : "http://127.0.0.1:17750",
     "testnet" : "http://127.0.0.1:28081"
   },
   "blockchain-path" :
@@ -30,8 +30,8 @@
     "mainnet" :
     {
       "_comment": "these are official monero project donation address and viewkey. change it to yours",
-      "address" : "44AFFq5kSiGBoZ4NMDwYtN18obc8AemS33DBLWs3H7otXft3XjrpDtQGv7SqSsaBYBb98uNbr2VBBEt7f2wfn3RVGQBEP3A",
-      "viewkey" : "f359631075708155cc3d92a32b75a7d02a5dcf27756707b47a2b31b21c389501"
+      "address" : "hvxyEMCy32o2VuPnZuh2QW49rRuFqVtXpA87oACWgGAbS7cSf6VHcrAV7eiAND2NQZDKASbHsuLa3NGpvLDfiQiK9ZzHbqRDeG",
+      "viewkey" : "281334aa6fa81628ab2ddc4e12499d92dcbc26a0687f2ea1934316c820e21d7e"
     }
   },
   "refresh_block_status_every_seconds" : 10,

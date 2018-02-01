@@ -31,7 +31,7 @@ USE `openmonero`;
 DROP TABLE IF EXISTS `Accounts`;
 CREATE TABLE `Accounts` (
   `id` bigint(10) UNSIGNED NOT NULL,
-  `address` varchar(95) NOT NULL,
+  `address` varchar(98) NOT NULL,
   `viewkey_hash` char(64) NOT NULL,
   `scanned_block_height` int(10) UNSIGNED NOT NULL DEFAULT '0',
   `scanned_block_timestamp` timestamp NOT NULL DEFAULT 0,

@@ -8,7 +8,7 @@
                     <div class="header-div-block">
                         <h1 class="heading-contained">Receive</h1>
                         <div class="subhead-text inner">
-                            Receive funds from any Monero user.
+                            Receive funds from any Haven user.
                         </div>
                     </div>
                 </div>
@@ -26,15 +26,15 @@
                     </label>
                     <div class="move-text-div">
                         <div class="middle-text receive">
-                            {{integarted_address}} 
+                            {{integarted_address}}
                         </div>
                     </div>
 
 
-                    <div class="w-col w-col-6 responsive-column">         
+                    <div class="w-col w-col-6 responsive-column">
                         <label class="send-label" for="payment_id8">
                             Payment ID (max 16 [0-9a-f] characters)
-                        </label>               
+                        </label>
                         <input class="w-input" id="payment_id8" type="text" ng-model="payment_id8"
                                placeholder="e.g. 671a4f30238c5152"
                                name="payment_id8" data-name="payment_id8">
@@ -50,18 +50,18 @@
                                 {{payment_id8_rendered}}
                             </div>
                         </div>
-                    </div>    
+                    </div>
 
 
 
                     <div class="submit-div small-top-margin">
                       <a class="login-btn modals pointer" ng-click="new_payment_id8()">Generate new integrated address</a>
-                    </div>            
+                    </div>
 
 
                     <div class="w-form-fail error-backing" style="display: block;" ng-show="!!error">
                         <p>{{error}}</p>
-                    </div>                           
+                    </div>
 
             </div>
         </div>
