@@ -238,7 +238,7 @@ YourMoneroRequests::get_address_txs(const shared_ptr< Session > session, const B
                         {"height"         , tx.height},
                         {"mixin"          , tx.mixin},
                         {"payment_id"     , tx.payment_id},
-                        {"unlock_time"    , tx.unlock_time},                  
+                        {"unlock_time"    , tx.unlock_time},
                         {"total_sent"     , 0},    // to be field when checking for spent_outputs below
                         {"total_received" , tx.total_received},
                         {"timestamp"      , static_cast<uint64_t>(tx.timestamp)},
@@ -1484,7 +1484,7 @@ YourMoneroRequests::get_version(const shared_ptr< Session > session, const Bytes
         {"last_git_commit_hash", string {GIT_COMMIT_HASH}},
         {"last_git_commit_date", string {GIT_COMMIT_DATETIME}},
         {"git_branch_name"     , string {GIT_BRANCH_NAME}},
-        {"monero_version_full" , string {MONERO_VERSION_FULL}},
+        {"monero_version_full" , string {HAVEN_VERSION_FULL}},
         {"api"                 , OPENMONERO_RPC_VERSION},
         {"testnet"             , CurrentBlockchainStatus::testnet},
         {"blockchain_height"   , get_current_blockchain_height()}
