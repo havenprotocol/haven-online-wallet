@@ -112,7 +112,7 @@ function mn_random(bits) {
         } else if (typeof window !== 'undefined' && typeof window.msCrypto === 'object' && typeof window.msCrypto.getRandomValues === 'function') {
             window.msCrypto.getRandomValues(array);
         } else {
-            throw "Unfortunately MyMonero only runs on browsers that support the JavaScript Crypto API";
+            throw "Unfortunately Haven Wallet only runs on browsers that support the JavaScript Crypto API";
         }
 
         ++i;

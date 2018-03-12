@@ -1091,7 +1091,6 @@ p {
   padding-left: 0px;
 }
 .review-details-modal {
-  position: fixed;
   left: 0px;
   top: 0px;
   right: 0px;
@@ -1346,7 +1345,7 @@ p {
     font-size: 34px;
   }
   .home-header {
-    font-size: 65px;
+    font-size: 26px;
     line-height: 85px;
   }
   .create-account-btn {
@@ -1396,7 +1395,7 @@ p {
     padding-left: 0px;
   }
   .body-section.steps-page {
-    padding-top: 120px;
+    padding-top: 20px;
     padding-bottom: 80px;
   }
   .subhead-text {
