@@ -1,7 +1,7 @@
 var config = {
-  apiUrl: "http://165.227.51.19:1984/",
-  mainnetExplorerUrl: "https://xmrchain.com/",
-  testnetExplorerUrl: "https://testnet.xmrchain.com/",
+  apiUrl: "https://api.havenwallet.com/",
+  mainnetExplorerUrl: "http://explorer.havenprotocol.com/",
+  testnetExplorerUrl: "http://explorer.havenprotocol.com:81",
   testnet: false,
   coinUnitPlaces: 12,
   txMinConfirms: 10,         // corresponds to CRYPTONOTE_DEFAULT_TX_SPENDABLE_AGE in Monero
